@@ -1,0 +1,90 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+section {
+    background-color: #e2e7ec;
+}
+
+/* .wrapper {
+    width: 1600px;
+    height: 1600px;
+}
+ */
+.flex-block {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #e2e7ec;
+    /* max-height: 1100px; */
+    border: 2px solid orange;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.block-elem_1 {
+    width: 740px;
+    height: 540px;
+    margin-top: 20px;
+    background-image: url(/img/img_1.png);
+    background-repeat: no-repeat;
+}
+
+.block-elem_2,
+.block-elem_3,
+.block-elem_4,
+.block-elem_5 {
+    margin-top: 20px;
+    width: 360px;
+    height: 540px;
+    background-color: #ffffff;
+    /* border: 2px solid rgb(46, 43, 177); */
+}
+
+
+.block-elem {
+    width: 740px;
+    height: 540px;
+}
+
+/* .block-elem .image {
+    position: relative;
+} */
+
+/* .block-elem h3 {
+    position: absolute;
+    left: 40px;
+    top: 370px;
+    opacity: 0.5;
+    color: #e01515;
+    font-family: "Hans Kendrick";
+} */
+
+.block-elem_2 h3,
+.block-elem_3 h3, 
+.block-elem_5 h3  {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.block-elem_2 h2,
+.block-elem_3 h2, 
+.block-elem_5 h2 {
+    padding-top: 25px;
+    padding-left: 20px;
+}
+
+.block-elem_2 .lil_foto,
+.block-elem_3 .lil_foto,
+.block-elem_5 .lil_foto  {
+    padding-top: 50px;
+    padding-left: 20px;
+}
+
